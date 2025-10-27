@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moodie | Entrenador de Emociones para Niños</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carga de la fuente Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc; /* Fondo muy claro */
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, #a78bfa 0%, #6366f1 100%); /* Morado a Azul */
+        }
+        .section-header {
+            color: #4f46e5; /* Índigo */
+        }
+        .card-shadow {
+            box-shadow: 0 10px 30px -5px rgba(100, 100, 100, 0.1);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Navbar Simple -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-3xl font-extrabold text-indigo-600">Moodie</h1>
+            <nav>
+                <a href="#caracteristicas" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md transition duration-150 hidden sm:inline-block">Características</a>
+                <a href="#beneficios" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md transition duration-150 hidden sm:inline-block">Beneficios</a>
+                <a href="#contacto" class="bg-indigo-600 text-white px-4 py-2 rounded-full hover:bg-indigo-700 transition duration-150 font-medium">Comenzar Ahora</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección HERO (Propuesta de Valor Principal) -->
+    <section class="hero-bg text-white py-16 md:py-24 text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-4xl sm:text-6xl font-extrabold leading-tight mb-4">
+                El Entrenador de Emociones para Niños
+            </h2>
+            <p class="text-xl sm:text-2xl font-light mb-8 opacity-90">
+                Ayuda a tus hijos a identificar, expresar y regular sus sentimientos de forma lúdica y segura.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#contacto" class="bg-white text-indigo-600 font-bold px-8 py-3 rounded-full shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                    Descubre el App
+                </a>
+                <a href="#beneficios" class="border border-white text-white font-medium px-8 py-3 rounded-full hover:bg-white hover:text-indigo-600 transition duration-300">
+                    Ver por qué funciona
+                </a>
+            </div>
+            <!-- Placeholder de Ilustración o Mockup de App -->
+            <div class="mt-12">
+                <!-- Se sugiere una imagen de mockup de una tablet mostrando emojis -->
+                <img src="https://placehold.co/600x350/ffffff/5b21b6?text=Interfaz+Niño+y+Emojis" onerror="this.onerror=null; this.src='https://placehold.co/600x350/ffffff/5b21b6?text=Interfaz+Niño+y+Emojis';" alt="Mockup de la aplicación Moodie con emojis de emociones" class="mx-auto rounded-xl card-shadow w-full max-w-lg md:max-w-xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Características (Flujos Principales) -->
+    <section id="caracteristicas" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-sm font-semibold uppercase tracking-wider section-header mb-2 text-center">
+                CÓMO FUNCIONA MOODIE
+            </h3>
+            <h4 class="text-4xl font-extrabold text-center mb-12 text-gray-900">
+                Dos interfaces, un objetivo: la Inteligencia Emocional
+            </h4>
+
+            <div class="grid md:grid-cols-2 gap-10">
+                
+                <!-- Tarjeta 1: Interfaz Niño -->
+                <div class="bg-purple-50 p-6 rounded-3xl card-shadow">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <span class="text-4xl">🧒</span>
+                        <h5 class="text-2xl font-bold text-gray-900">Para el Niño: Expresión y Regulación</h5>
+                    </div>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-indigo-500 font-bold mr-3 text-xl">1.</span>
+                            <div>
+                                <strong class="font-semibold">Registro Visual (HU 1):</strong> Seleccionan su emoción con un solo toque (emojis grandes) o mediante un dibujo libre (HU 2).
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-indigo-500 font-bold mr-3 text-xl">2.</span>
+                            <div>
+                                <strong class="font-semibold">Sugerencias Inmediatas (HU 3):</strong> Reciben una actividad breve y específica (ej. respiración, saltos) adaptada a su estado para regular la emoción.
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-indigo-500 font-bold mr-3 text-xl">3.</span>
+                            <div>
+                                <strong class="font-semibold">Autoconocimiento (HU 4):</strong> Visualizan un gráfico simple de sus últimas emociones, entendiendo su propio patrón de forma intuitiva.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Tarjeta 2: Interfaz Tutor -->
+                <div class="bg-indigo-50 p-6 rounded-3xl card-shadow">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <span class="text-4xl">🧑‍🎓</span>
+                        <h5 class="text-2xl font-bold text-gray-900">Para el Tutor: Seguimiento y Soporte</h5>
+                    </div>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-purple-500 font-bold mr-3 text-xl">1.</span>
+                            <div>
+                                <strong class="font-semibold">Dashboard Seguro (HU 6):</strong> Acceso privado con historial de emociones completo y trazabilidad de actividades.
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-500 font-bold mr-3 text-xl">2.</span>
+                            <div>
+                                <strong class="font-semibold">Insights Semanales (HU 7.1):</strong> Reciben resúmenes sobre la tendencia emocional más y menos frecuente, con sugerencias prácticas de apoyo.
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-500 font-bold mr-3 text-xl">3.</span>
+                            <div>
+                                <strong class="font-semibold">Portabilidad de Datos (HU 8.1):</strong> Exportan el historial a CSV/PDF para compartir con terapeutas o educadores.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Beneficios (Inteligencia Emocional) -->
+    <section id="beneficios" class="py-16 md:py-24 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-sm font-semibold uppercase tracking-wider section-header mb-2 text-center">
+                RESULTADOS CLAVE
+            </h3>
+            <h4 class="text-4xl font-extrabold text-center mb-12 text-gray-900">
+                Construyendo el futuro de la Inteligencia Emocional
+            </h4>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Beneficio 1: Vocabulario Emocional -->
+                <div class="bg-white p-6 rounded-xl text-center card-shadow hover:ring-4 ring-indigo-200 transition duration-300">
+                    <span class="text-5xl mb-4 inline-block">🗣️</span>
+                    <h5 class="text-xl font-bold mb-2">Mejora el Vocabulario</h5>
+                    <p class="text-gray-600">Ayudamos a los niños a nombrar lo que sienten, pasando de "estoy mal" a "siento ansiedad" o "estoy entusiasmado".</p>
+                </div>
+
+                <!-- Beneficio 2: Regulación -->
+                <div class="bg-white p-6 rounded-xl text-center card-shadow hover:ring-4 ring-indigo-200 transition duration-300">
+                    <span class="text-5xl mb-4 inline-block">🧘</span>
+                    <h5 class="text-xl font-bold mb-2">Fomenta la Regulación</h5>
+                    <p class="text-gray-600">Proporciona herramientas inmediatas y saludables (estrategias) para canalizar el enojo, la tristeza o el exceso de energía.</p>
+                </div>
+
+                <!-- Benef
